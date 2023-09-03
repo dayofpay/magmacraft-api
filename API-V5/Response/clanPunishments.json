@@ -1,0 +1,13 @@
+{
+    "MagmaCore.services.Clans.Punishments": [{
+        "id": "2",
+        "clan_name": "asd",
+        "punish_date": null,
+        "punish_reason": "asd"
+    }, {
+        "id": "3",
+        "clan_name": "asd",
+        "punish_date": null,
+        "punish_reason": "asd"
+    }]
+}
