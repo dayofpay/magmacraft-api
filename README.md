@@ -1,32 +1,64 @@
 # magmacraft-api
 API системата към Minecraft сървъра ми MagmaCraft
 
-* Вземи общ брой убийства на клан
+* BattlePass Data
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getClanKills&clanName=<Ime na clan>
+https://v-devs.eu/softwares/magmacraft/services/battlepass/{username}
 
 * Пример: 
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getClanKills&clanName=Staff
+https://v-devs.eu/softwares/magmacraft/services/battlepass/dayofpay
 
-* Взима кратка информация за играч
+* LHRV Data
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getPlayerData&playerName=<Igrach>
+https://v-devs.eu/softwares/magmacraft/services/lhrv/{username}
 
 * Пример
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getPlayerData&playerName=dayofpay
+https://v-devs.eu/softwares/magmacraft/services/lhrv/dayofpay
 
-* Вземи топ 10 играчи с най-много токени
+* CoreService Data
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getTopTokens
+https://v-devs.eu/softwares/magmacraft/services/coreservice/{username}
 
-* Взима всички играчи на клан
+* Пример
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getClanPlayers&clanName=<Clan>
+https://v-devs.eu/softwares/magmacraft/services/coreservice/DAYOFPAY
+* Parkour Data
+
+https://v-devs.eu/softwares/magmacraft/services/parkourGames/{username}
 
 * Пример:
 
-https://v-devs.eu/api.php?projectName=magmacraft&functionName=getClanPlayers&clanName=Gapple
+https://v-devs.eu/softwares/magmacraft/services/parkourGames/dayofpay
 
-В това repository можете да видите примерно извличане на данните използвайки най-масово използваните програмни езици като Java,C#,Python и т.н
+* Clan Punishments
+https://v-devs.eu/softwares/magmacraft/services/clanPunishments/{clan}
+
+* Пример:
+
+https://v-devs.eu/softwares/magmacraft/services/clanPunishments/JustKavali
+
+
+
+* User Rank & Prefix
+https://v-devs.eu/softwares/magmacraft/services/prefix/{username}
+
+* Пример:
+
+https://v-devs.eu/softwares/magmacraft/services/prefix/dayofpay
+
+
+
+
+* User Tokens
+https://v-devs.eu/softwares/magmacraft/services/tokens/{username}
+
+* Пример:
+
+https://v-devs.eu/softwares/magmacraft/services/tokens/dayofpay
+
+
+# ✔ Може да разгледате примерна API имплементация във API=V5
+
+В това repository можете да видите примерно извличане на данните използвайки най-масово използваните програмни езици като Java,C#,Python и т.н ( OUTDATED )
