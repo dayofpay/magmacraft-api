@@ -59,6 +59,21 @@ https://v-devs.eu/softwares/magmacraft/services/tokens/{username}
 https://v-devs.eu/softwares/magmacraft/services/tokens/dayofpay
 
 
+
+
+* Get User Follower List
+https://v-devs.eu/softwares/magmacraft/api/social/followers/list/{username}
+
+* Пример:
+
+https://v-devs.eu/softwares/magmacraft/api/social/followers/list/dayofpay
+
+* Get User Follower Count
+https://v-devs.eu/softwares/magmacraft/api/social/followers/count/{username}
+
+* Пример:
+
+https://v-devs.eu/softwares/magmacraft/api/social/followers/count/dayofpay
 # ✔ Може да разгледате примерна API имплементация във API=V5
 
 В това repository можете да видите примерно извличане на данните използвайки най-масово използваните програмни езици като Java,C#,Python и т.н ( OUTDATED )
